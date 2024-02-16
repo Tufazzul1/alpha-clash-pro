@@ -12,6 +12,12 @@
 
 // }
 
+function handleKeyBoardButtonPress(){
+    console.log('button pressed')
+}
+// capture the keyboard button press
+document.addEventListener('keyup', handleKeyBoardButtonPress)
+
 
 function continueGame(){
     // step-1 : generate a rendom alphabet 
